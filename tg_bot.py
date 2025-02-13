@@ -39,7 +39,7 @@ async def search_music(update: Update, context):
 # Botni ishga tushurish
 def main():
     # Telegram bot token
-    TOKEN = '7890723103:AAHJmtq3xzcYzCNmtrfAe5ulzfKGXVRkab0'
+    TOKEN = 'bot_tokeni'
 
     # Application yaratish
     application = Application.builder().token(TOKEN).build()
